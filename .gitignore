@@ -1,0 +1,39 @@
+# Diretórios e arquivos específicos do ambiente de desenvolvimento
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pytest_cache/
+
+# Arquivos de configuração do editor
+.vscode/
+.idea/
+
+# Arquivos de configuração do ambiente virtual
+venv/
+env/
+
+# Arquivos de log
+*.log
+
+# Arquivos temporários do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Arquivos de cache de dependências
+*.egg-info/
+dist/
+build/
+
+# Arquivos de teste temporários
+*.cover
+nosetests.xml
+coverage.xml
+*.hypothesis/
+
+# Arquivos específicos de IDEs
+*.sublime-workspace
+*.sublime-project
+
+# Arquivos de cache do pip
+pip-wheel-metadata/
